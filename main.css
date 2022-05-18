@@ -26,13 +26,13 @@ div#header {
 	background: #24292e;
 	z-index: 1;
 	position: fixed;
-	display:inline-block;
+	display: inline-block;
 }
 
 div#header-icon-text-container {
 	padding-left: 20px;
 	padding-top: 8px;
-	padding-left: 15px;
+	padding-left: 25px;
 	padding-top: 0px;
 	display:inline-block;
 	vertical-align: middle;
@@ -41,8 +41,9 @@ div#header-icon-text-container {
 div#header-icon-container {
 	height:45px; width:45px;
 	height:35px; width:50px;
-	display:inline-block;
+	display: inline-block;
 	vertical-align: middle;
+	text-align: center;
 	/* background-color: white; */
 	border-radius: 10px;
 	border-radius: 0px;
@@ -52,7 +53,7 @@ div#header-icon-container {
 div#header-text-container {
 	padding-left: 15px;
 	height: 40px;
-	display:inline-block;
+	display: inline-block;
 	color: white;
 	/*font-size: 28px;*/
 	margin: 5px;
@@ -298,6 +299,7 @@ div#footer a:hover {
 
 div#footer-text {
 	line-height: 30px;
+	line-height: 1;
 }
 
 ul, ol, dl {
