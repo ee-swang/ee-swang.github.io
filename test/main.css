@@ -203,11 +203,18 @@ div#toptitle + h2, div#toptitle + h3 {
 }
 
 div#subtitle {
-	margin-top: 0.0em;
+	/*margin-top: 0.0em;
 	margin-bottom: 0.0em;
 	padding-top: 0em;
-	padding-bottom: 0.1em;
-}
+	padding-bottom: 0.1em;*/
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	margin-bottom: 0.0em;
+	padding: 0;
+	text-align: justify;
+	}
 
 em {
 	font-style: italic;
@@ -653,8 +660,9 @@ div#layout-menu-container .closebtn:hover {
 		background: #fdaeb7;
 		color: #cb2431;
 	}
+	
 }
-
+	
 /* Width to center image */
 @media screen and (max-width: 700px) {
 	img{
@@ -700,7 +708,24 @@ div#layout-menu-container .closebtn:hover {
 	div#text-container h3{
 		text-align: center;
 	}
+	
+	.google-maps {
+		position: relative;
+		padding-bottom: 75%; // This is the aspect ratio
+		height: 0;
+		overflow: hidden;
+	}
+
+	.google-maps iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: 100% !important;
+	}
+	
 }
+
 
 
 
