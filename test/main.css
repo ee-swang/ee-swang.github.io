@@ -298,6 +298,7 @@ div#footer a:hover {
 
 div#footer-text {
 	line-height: 30px;
+	line-height: 1;
 }
 
 ul, ol, dl {
